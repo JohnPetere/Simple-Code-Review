@@ -10,6 +10,12 @@ namespace CodeReview
     {
         static void Main(string[] args)
         {
+            //Use the Salutation class for a Walmart Greeter.
+            Salutation oldGuy = new Salutation("Welcome to Walmart!", "Thanks for shopping at walmart!");
+            // Get the guy to tak...
+            Console.WriteLine(oldGuy.Greet());
+            Console.WriteLine(oldGuy.SayFarewell());
+
         }
     }
 }
